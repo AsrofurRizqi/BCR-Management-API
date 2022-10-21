@@ -156,7 +156,7 @@ module.exports = {
                 })
             })
         }else{
-            cars.update({...body,image: req.image.url,updatedBy: users},{
+            cars.update({...body,image: req.image.url,updatedBy: nama},{
                 where:{id}
             })
             .then((data)=>{
