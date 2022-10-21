@@ -4,6 +4,10 @@ Express RestFull API Data mobil yang dilengkapi dengan Auth Controller menggunak
 
 #### Published OpenAPI Documentation
 [Swagger Documentation](https://app.swaggerhub.com/apis/AsrofurRizqi/challenge-6/1.0)
+#### Superadmin Data
+    nama : asrop
+    email : asrop@gmail.com
+    password : 123456
 #### Endpoints
 - OpenAPI Swagger UI
     - ```GET /openapi```
