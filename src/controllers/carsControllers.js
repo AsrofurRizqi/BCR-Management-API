@@ -34,11 +34,11 @@ module.exports = {
                     createdAt: a.createdAt,
                     updatedAt: a.updatedAt
                 })
-            })
+            }),
             res.send({
                 msg: "Success get all data",
                 status: 200,
-                data : newdata
+                data : newData
             })
         })
         .catch ((err)=>{

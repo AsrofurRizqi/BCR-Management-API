@@ -70,6 +70,13 @@ module.exports={
     },
     login: async(req, res) =>{
         const {email,password}= req.body;
+        if(email == null || password == null){
+            res.status(500).send({
+                msg: "harap isi email dan password",
+                status: 500,
+                error : "form data not found"
+            })
+        }
         let findUser = await users.findOne({
             where : {
                 [op.or] : [

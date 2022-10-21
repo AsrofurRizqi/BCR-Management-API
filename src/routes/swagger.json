@@ -258,7 +258,7 @@
             "name": "image",
             "in": "formData",
             "required": true,
-            "type": "string",
+            "type": "file",
             "description": ""
           }
         ],
@@ -339,6 +339,28 @@
             "in": "formData",
             "required": true,
             "type": "string",
+            "description": ""
+          },
+          {
+            "name": "harga",
+            "in": "formData",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": ""
+          },
+          {
+            "name": "ukuran",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "image",
+            "in": "formData",
+            "required": true,
+            "type": "file",
             "description": ""
           }
         ],
